@@ -1,0 +1,6 @@
+<svg id="location" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <rect id="Rectangle_8896" data-name="Rectangle 8896" width="40" height="40" fill="none"/>
+  <g id="pin_1_" data-name="pin (1)" transform="translate(-66.968 10)">
+    <path id="Path_4514" data-name="Path 4514" d="M92.765,3.424A6.787,6.787,0,0,0,87,0c-.1,0-.205,0-.308,0a6.787,6.787,0,0,0-5.767,3.423,6.963,6.963,0,0,0-.091,6.88l4.959,9.078.007.012a1.205,1.205,0,0,0,2.091,0l.007-.012L92.856,10.3a6.963,6.963,0,0,0-.091-6.88ZM86.844,9.062A2.812,2.812,0,1,1,89.656,6.25,2.816,2.816,0,0,1,86.844,9.062Z" transform="translate(0 0)" fill="#3190af"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="map" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <rect id="Rectangle_10092" data-name="Rectangle 10092" width="24" height="24" fill="none"/>
+    <g id="maps-and-flags" transform="translate(-64.573 4)">
+        <g id="Group_13162" data-name="Group 13162" transform="translate(70.573)">
+            <path id="Path_4506" data-name="Path 4506"
+                  d="M76.368,0a5.8,5.8,0,0,0-5.795,5.795c0,3.965,5.186,9.786,5.406,10.032a.522.522,0,0,0,.776,0c.221-.246,5.406-6.067,5.406-10.032A5.8,5.8,0,0,0,76.368,0Zm0,8.71a2.915,2.915,0,1,1,2.915-2.915A2.919,2.919,0,0,1,76.368,8.71Z"
+                  transform="translate(-70.573)" fill="#3190af"/>
+        </g>
+    </g>
+</svg>

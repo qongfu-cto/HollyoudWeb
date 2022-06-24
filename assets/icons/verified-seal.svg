@@ -1,0 +1,10 @@
+<svg id="verified-seal" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+    <rect id="Rectangle_9858" data-name="Rectangle 9858" width="23" height="23" fill="none"/>
+    <g id="shield" transform="translate(-41.451 3)">
+        <g id="Group_10528" data-name="Group 10528" transform="translate(45.451 0)">
+            <path id="Path_3352" data-name="Path 3352"
+                  d="M59.962,4.131,53.16.085a.6.6,0,0,0-.614,0l-6.8,4.047a.6.6,0,0,0-.293.516v2.31a11.676,11.676,0,0,0,7.185,11,.6.6,0,0,0,.433,0,11.674,11.674,0,0,0,7.185-11V4.647A.6.6,0,0,0,59.962,4.131ZM55.817,7.652l-3.76,3.761a.6.6,0,0,1-.849,0l-1.32-1.32a.6.6,0,1,1,.849-.849l.9.9L54.969,6.8a.6.6,0,0,1,.849.849Z"
+                  transform="translate(-45.451 0)" fill="#5fb948"/>
+        </g>
+    </g>
+</svg>

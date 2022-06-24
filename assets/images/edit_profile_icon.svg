@@ -1,0 +1,15 @@
+<svg id="edit_profile_icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Rectangle_9746" data-name="Rectangle 9746" fill="#f8fcff" stroke="#f3f3f3" stroke-width="1">
+    <rect width="48" height="48" rx="8" stroke="none"/>
+    <rect x="0.5" y="0.5" width="47" height="47" rx="7.5" fill="none"/>
+  </g>
+  <g id="Group_11456" data-name="Group 11456" transform="translate(-308 -196)">
+    <rect id="Rectangle_9691" data-name="Rectangle 9691" width="32" height="32" transform="translate(316 204)" fill="none"/>
+    <g id="Group_8230" data-name="Group 8230" transform="translate(-48 -121.005)">
+      <g id="edit" transform="translate(369 327.744)">
+        <path id="Path_1635" data-name="Path 1635" d="M22.014,51.749a.594.594,0,0,0-.594.594v5.273A1.784,1.784,0,0,1,19.638,59.4H2.97a1.784,1.784,0,0,1-1.782-1.781V42.141A1.784,1.784,0,0,1,2.97,40.36H8.245a.594.594,0,1,0,0-1.188H2.97A2.973,2.973,0,0,0,0,42.141V57.616a2.973,2.973,0,0,0,2.97,2.969H19.638a2.973,2.973,0,0,0,2.97-2.969V52.343A.594.594,0,0,0,22.014,51.749Zm0,0" transform="translate(0 -36.324)" fill="#57c1e3"/>
+        <path id="Path_1636" data-name="Path 1636" d="M126.035,1.137a2.992,2.992,0,0,0-4.231,0L109.944,13a.665.665,0,0,0-.171.293l-1.56,5.631a.665.665,0,0,0,.818.818l5.631-1.56a.665.665,0,0,0,.293-.171l11.86-11.86a3,3,0,0,0,0-4.231ZM111.393,13.429,121.1,3.722l3.13,3.13-9.707,9.707Zm-.625,1.255,2.5,2.5-3.459.958Zm15.108-9.476-.705.705L122.04,2.782l.705-.705a1.662,1.662,0,0,1,2.35,0l.78.78A1.664,1.664,0,0,1,125.875,5.208Zm0,0" transform="translate(-103.69)" fill="#57c1e3"/>
+      </g>
+    </g>
+  </g>
+</svg>

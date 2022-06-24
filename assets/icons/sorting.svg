@@ -1,0 +1,18 @@
+<svg id="sorting" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <g id="Group_12103" data-name="Group 12103" transform="translate(-792 -24)">
+        <rect id="Rectangle_9623" data-name="Rectangle 9623" width="32" height="32" transform="translate(792 24)"
+              fill="none"/>
+        <g id="descendant" transform="translate(786.025 18.025)">
+            <g id="Group_12099" data-name="Group 12099" transform="translate(11.975 11.975)">
+                <g id="Group_12098" data-name="Group 12098" transform="translate(0 0)">
+                    <path id="Path_3356" data-name="Path 3356"
+                          d="M232.2,17.131l-4.914-4.914a.82.82,0,0,0-1.163,0l-4.91,4.914a.822.822,0,0,0,1.163,1.163l3.5-3.5v14.4a.833.833,0,0,0,1.665,0V14.8l3.5,3.5a.822.822,0,0,0,1.163-1.163Z"
+                          transform="translate(-212.445 -11.975)" fill="#3190af"/>
+                    <path id="Path_3357" data-name="Path 3357"
+                          d="M23.2,71.434a.82.82,0,0,0-1.163,0l-3.5,3.5v-14.4a.833.833,0,0,0-1.665,0v14.4l-3.5-3.5A.822.822,0,0,0,12.217,72.6l4.914,4.914a.82.82,0,0,0,1.163,0L23.208,72.6a.824.824,0,0,0,0-1.163Z"
+                          transform="translate(-11.975 -57.752)" fill="#3190af"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

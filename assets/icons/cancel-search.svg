@@ -1,0 +1,7 @@
+<svg id="cancel-search" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect id="Rectangle_10022" data-name="Rectangle 10022" width="32" height="32" fill="none"/>
+  <g id="Group_13263" data-name="Group 13263" transform="translate(7.975 7.686)">
+    <path id="Subtraction_3" data-name="Subtraction 3" d="M1.421,0A1.421,1.421,0,0,0,0,1.421a1.41,1.41,0,0,0,.416,1L3.895,5.905A6.613,6.613,0,0,1,5.9,3.9L2.426.417A1.41,1.41,0,0,0,1.421,0ZM9.254,3.794h0a5.685,5.685,0,0,0-4.611,8.675l.822-1.546A4.263,4.263,0,0,1,8.434,5.34L9.254,3.8Zm3.4.967h0l-.672,1.265A4.262,4.262,0,0,1,8.017,13.48l-.673,1.266a5.685,5.685,0,0,0,5.31-9.984Zm.137,4.712h-.946a2.372,2.372,0,0,1-2.37,2.37v.946A3.32,3.32,0,0,0,12.79,9.475Z" transform="translate(15.159 16.245) rotate(180)" fill="#3190af"/>
+    <rect id="Rectangle_10126" data-name="Rectangle 10126" width="1.688" height="16.186" rx="0.844" transform="matrix(-0.883, -0.469, 0.469, -0.883, 3.504, 15.084)" fill="#3190af"/>
+  </g>
+</svg>

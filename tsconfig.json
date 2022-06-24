@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    // "target": "es5",
+    // "lib": ["dom", "dom.iterable", "esnext"],
+    // "allowJs": true,
+    // "skipLibCheck": true,
+    // "strict": true,
+    // "forceConsistentCasingInFileNames": false,
+    // "noEmit": true,
+    // "esModuleInterop": true,
+    // "module": "esnext",
+    // "moduleResolution": "node",
+    // "resolveJsonModule": true,
+    // "isolatedModules": true,
+    // "jsx": "preserve",
+    // "incremental": true,
+    // "baseUrl": "./",
+    // "paths": {
+    //   "assets/*": ["./assets/*"],
+    //   "components/*": ["./components/*"],
+    //   "utilities/*": ["./utilities/*"]
+    // }
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": "./",
+    "paths": {
+      "assets/*": ["./assets/*"],
+      "components/*": ["./components/*"],
+      "utilities/*": ["./utilities/*"]
+    }
+  },
+  "eslint": {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    "ignoreDuringBuilds": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "tests/teardown.js",
+    "tests/setup.js",
+    "tests/puppeteer_environment.js",
+    "tests/index.test.js"
+  ],
+  "exclude": ["node_modules"]
+}

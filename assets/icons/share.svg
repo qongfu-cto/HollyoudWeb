@@ -1,0 +1,18 @@
+<svg id="share-2" data-name="share" xmlns="http://www.w3.org/2000/svg"
+     width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <filter id="share" x="2" y="5" width="28" height="24.09" filterUnits="userSpaceOnUse">
+            <feOffset dy="1" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="0.5" result="blur"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <rect id="Rectangle_10096" data-name="Rectangle 10096" width="32" height="32" fill="none"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#share)">
+        <path id="share-3" data-name="share"
+              d="M23.181,47.813l-5.433-5.433a1.955,1.955,0,0,0-1.351-.676c-.616,0-1.335.468-1.335,1.788v1.85A15.766,15.766,0,0,0,0,61.092a.7.7,0,0,0,1.265.422,17.979,17.979,0,0,1,13.8-7.236V56.1c0,1.32.719,1.788,1.335,1.788h0a1.955,1.955,0,0,0,1.351-.676l5.433-5.433a2.81,2.81,0,0,0,0-3.966Z"
+              transform="translate(4 -35.71)" fill="#b5b5b5" stroke="#dedede" stroke-width="1"/>
+    </g>
+</svg>

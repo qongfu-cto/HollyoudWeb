@@ -1,0 +1,22 @@
+<svg id="header-tasks" xmlns="http://www.w3.org/2000/svg" width="32" height="40" viewBox="0 0 32 40">
+    <rect id="Rectangle_9783" data-name="Rectangle 9783" width="32" height="40" fill="none"/>
+    <g id="Group_10845" data-name="Group 10845" transform="translate(-1056 -8)">
+        <g id="Rectangle_9786" data-name="Rectangle 9786" transform="translate(1060 16)" fill="none" stroke="#45a0bc"
+           stroke-width="1.4">
+            <rect width="24" height="24" rx="4" stroke="none"/>
+            <rect x="0.7" y="0.7" width="22.6" height="22.6" rx="3.3" fill="none"/>
+        </g>
+        <rect id="Rectangle_9787" data-name="Rectangle 9787" width="4" height="4" rx="1" transform="translate(1064 20)"
+              fill="#45a0bc"/>
+        <rect id="Rectangle_9790" data-name="Rectangle 9790" width="4" height="4" rx="1" transform="translate(1064 26)"
+              fill="#45a0bc"/>
+        <rect id="Rectangle_9792" data-name="Rectangle 9792" width="4" height="4" rx="1" transform="translate(1064 32)"
+              fill="#45a0bc"/>
+        <rect id="Rectangle_9788" data-name="Rectangle 9788" width="10" height="2" transform="translate(1070 21)"
+              fill="#45a0bc"/>
+        <rect id="Rectangle_9789" data-name="Rectangle 9789" width="10" height="2" transform="translate(1070 27)"
+              fill="#45a0bc"/>
+        <rect id="Rectangle_9791" data-name="Rectangle 9791" width="10" height="2" transform="translate(1070 33)"
+              fill="#45a0bc"/>
+    </g>
+</svg>

@@ -1,0 +1,41 @@
+interface dropDownArrayProps {
+    id?: number,
+    label?: string,
+    icon?: string,
+    description?: string
+
+}
+
+export const searchItemList: dropDownArrayProps[] = [
+    {
+        id: 1,
+        label: "Day to Day",
+        icon: "Capital Governorate"
+    },
+    {
+        id: 2,
+        label: "Food & Dining",
+        icon: 'East Riffa, Southern Governorate'
+    },
+    {
+        id: 3,
+        label: "Shopping",
+        icon: 'West Riffa, Southern governorate'
+    },
+    {
+        id: 4,
+        label: "Local Attractions",
+        icon: 'Manama, Capital Governorate'
+    },
+    {
+        id: 5,
+        label: "Health & Fitness",
+        icon: "Muharraq Governorate"
+    },
+    {
+        id: 6,
+        label: "Education",
+        icon: 'Al Seef, Northern Governorate'
+    }
+
+];

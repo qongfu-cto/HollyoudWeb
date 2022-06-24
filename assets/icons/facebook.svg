@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62"
+     viewBox="0 0 62 62">
+    <defs>
+        <filter id="facebook" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+            <feOffset dy="1" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="1" result="blur"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="facebook-2" data-name="facebook" transform="translate(3 2)">
+        <g transform="matrix(1, 0, 0, 1, -3, -2)" filter="url(#facebook)">
+            <path id="facebook-3" data-name="facebook"
+                  d="M48.455,0H7.548A7.546,7.546,0,0,0,0,7.546V48.454A7.546,7.546,0,0,0,7.548,56H27.723l.034-20.011h-5.2a1.227,1.227,0,0,1-1.227-1.222l-.025-6.45a1.227,1.227,0,0,1,1.227-1.231h5.189V20.852c0-7.233,4.418-11.172,10.87-11.172h5.295a1.227,1.227,0,0,1,1.227,1.227v5.439a1.227,1.227,0,0,1-1.226,1.227l-3.249,0c-3.509,0-4.188,1.667-4.188,4.115v5.4h7.711a1.227,1.227,0,0,1,1.218,1.371l-.765,6.45A1.227,1.227,0,0,1,43.4,35.989H36.485L36.451,56h12A7.546,7.546,0,0,0,56,48.454V7.546A7.546,7.546,0,0,0,48.455,0Z"
+                  transform="translate(3 2)" fill="#475993"/>
+        </g>
+    </g>
+</svg>

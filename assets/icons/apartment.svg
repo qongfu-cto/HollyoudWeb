@@ -1,0 +1,21 @@
+<svg fill="#3190AF" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-Apartments">
+      <rect width="64" height="64"/>
+    </clipPath>
+  </defs>
+  <g id="Apartments" clip-path="url(#clip-Apartments)">
+    <g id="Apartment" transform="translate(6.657 9)">
+      <g id="Group_12532" data-name="Group 12532" transform="translate(2.343)">
+        <g id="Group_12531" data-name="Group 12531" transform="translate(0)">
+          <path id="Path_4613" data-name="Path 4613" d="M44.877,41.678V0H43.35V41.231H38.769V3.818a.764.764,0,0,0-.764-.764H32.661V.764a.764.764,0,0,0-.88-.754L11.929,3.063a.764.764,0,0,0-.647.754V41.231H6.7V0H5.173V41.678l-2.83,2.83,1.08,1.08,2.83-2.83h5.734L31.781,45.8a.764.764,0,0,0,.88-.754V42.758H43.8l2.83,2.83,1.08-1.08Zm-13.744,2.48L12.809,41.339V4.473L31.134,1.654Zm6.108-2.927H32.661V4.581h4.581Z" transform="translate(-2.343)"/>
+        </g>
+      </g>
+      <g id="Group_12534" data-name="Group 12534" transform="translate(25.025 20.615)">
+        <g id="Group_12533" data-name="Group 12533">
+          <path id="Path_4614" data-name="Path 4614" d="M242.29,216a2.291,2.291,0,1,0,2.291,2.291A2.291,2.291,0,0,0,242.29,216Zm0,3.054a.764.764,0,1,1,.764-.764A.764.764,0,0,1,242.29,219.054Z" transform="translate(-239.999 -216)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

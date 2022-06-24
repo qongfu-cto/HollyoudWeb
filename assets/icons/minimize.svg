@@ -1,0 +1,18 @@
+<svg id="minimize" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g id="Rectangle_8841" data-name="Rectangle 8841" fill="rgba(174,234,254,0.16)" stroke="#57c1e3" stroke-width="1">
+        <rect width="40" height="40" rx="12" stroke="none"/>
+        <rect x="0.5" y="0.5" width="39" height="39" rx="11.5" fill="none"/>
+    </g>
+    <path id="Path_4448" data-name="Path 4448"
+          d="M3.306,3.922H7.18a.5.5,0,0,0,.5-.5V2.481a.5.5,0,0,0-.5-.5H.5a.5.5,0,0,0-.5.5V9.165a.5.5,0,0,0,.5.5H1.44a.5.5,0,0,0,.5-.5V5.291l5.53,5.53a.5.5,0,0,0,.7,0l.668-.668a.5.5,0,0,0,0-.7Z"
+          transform="translate(16 17.985) rotate(180)" fill="#57c1e3"/>
+    <path id="Path_4450" data-name="Path 4450"
+          d="M3.306,7.044H7.18a.5.5,0,0,1,.5.5v.944a.5.5,0,0,1-.5.5H.5a.5.5,0,0,1-.5-.5V1.8a.5.5,0,0,1,.5-.5H1.44a.5.5,0,0,1,.5.5V5.675L7.466.145a.5.5,0,0,1,.7,0l.668.668a.5.5,0,0,1,0,.7Z"
+          transform="translate(24 7.019)" fill="#57c1e3"/>
+    <path id="Path_4449" data-name="Path 4449"
+          d="M3.306,3.922H7.18a.5.5,0,0,0,.5-.5V2.481a.5.5,0,0,0-.5-.5H.5a.5.5,0,0,0-.5.5V9.165a.5.5,0,0,0,.5.5H1.44a.5.5,0,0,0,.5-.5V5.291l5.53,5.53a.5.5,0,0,0,.7,0l.668-.668a.5.5,0,0,0,0-.7Z"
+          transform="translate(17.985 24) rotate(90)" fill="#57c1e3"/>
+    <path id="Path_4451" data-name="Path 4451"
+          d="M3.306,7.045H7.18a.5.5,0,0,1,.5.5v.944a.5.5,0,0,1-.5.5H.5a.5.5,0,0,1-.5-.5V1.8a.5.5,0,0,1,.5-.5H1.44a.5.5,0,0,1,.5.5V5.675L7.466.145a.5.5,0,0,1,.7,0l.668.668a.5.5,0,0,1,0,.7Z"
+          transform="translate(32.981 24) rotate(90)" fill="#57c1e3"/>
+</svg>
