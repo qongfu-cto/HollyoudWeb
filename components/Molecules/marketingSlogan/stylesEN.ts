@@ -18,7 +18,7 @@ export const sloganStylesEN = makeStyles({
     },
     spanStyle: {
         fontSize: 48,
-        color: '#1E5065',
+        color: Branding.Colors.white,
         fontWeight: 400,
         letterSpacing: 0,
         fontFamily: 'Outfit',
@@ -34,7 +34,7 @@ export const sloganStylesEN = makeStyles({
         fontVariant: 'normal',
         fontWeight: 'normal',
         fontStyle: 'normal',
-        color: '#3190AF'
+        color: Branding.Colors.white,
     },
     spanStyleTwo: {
         fontSize: 59,
@@ -42,7 +42,7 @@ export const sloganStylesEN = makeStyles({
         fontVariant: 'normal',
         fontWeight: 'bold',
         fontStyle: 'normal',
-        color: '#1E5065'
+        color: Branding.Colors.white,
     },
     mobileSlogan: {
         width: '100%',

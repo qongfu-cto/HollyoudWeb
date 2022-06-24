@@ -116,7 +116,7 @@ const MobileSearchResultsBox: FC<MobileSearchResultsBoxProps> = ({
         <section className={styles.title}>
           <Typography
             variant="h5"
-            color={Branding.Colors.black[86]}
+            color={Branding.Colors.white}
             fontWeight="normal"
             fontSize={20}
             fontFamily="Outfit"
@@ -133,9 +133,9 @@ const MobileSearchResultsBox: FC<MobileSearchResultsBoxProps> = ({
           {results?.length ? (
             <Typography
               variant="caption"
-              color={Branding.Colors.black[60]}
-              fontWeight={300}
-              fontSize={16}
+              color={'rgba(255,255,255,0.7)'}
+              fontWeight={400}
+              fontSize={14}
               lineHeight="20px"
               fontFamily="Outfit"
             >

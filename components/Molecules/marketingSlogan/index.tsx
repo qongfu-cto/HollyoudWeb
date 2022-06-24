@@ -11,7 +11,7 @@ const MarketingSlogan = () => {
       <p>
         <span className={stylesEN.spanStyleOne}>
           <span>Welcome to</span>
-          <span className={stylesEN.spanStyleTwo}> QloudCity</span>
+          <span className={stylesEN.spanStyleTwo}> Hollyoud</span>
           {/* <span className={stylesEN.spanStyleTwo}> Digital...</span> */}
         </span>
       </p>

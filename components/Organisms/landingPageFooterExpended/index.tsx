@@ -74,7 +74,7 @@ const LandingPageFooterExpended = () => {
       )}
       <Grid container className={styles.container}>
         <Grid item xs={7}>
-          <GridHeader label="Navigate Qloud City" col={12} />
+          <GridHeader label="Navigate Hollyoud" col={12} />
           <Grid container>
             {/* <Grid item xs={4}>
               <TextButton

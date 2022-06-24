@@ -5,6 +5,7 @@ import LandingPageFooter from '../../Organisms/landingPageFooter';
 import LandingPageFooterExpended from '../../Organisms/landingPageFooterExpended';
 import LandingPageHeader from '../../Organisms/landingPageHeader';
 import { useLandingPageLayoutStylesEN } from './styleEN';
+import { Branding } from 'utilities/branding';
 
 interface LandingPageLayoutProps {
   children: React.ReactElement | React.ReactElement[];
@@ -23,10 +24,40 @@ const LandingPageLayout = ({ children, search }: LandingPageLayoutProps) => {
     setOpen(!open);
   };
   return (
-    <div>
-      <LandingPageHeader />
+    <div style={{ backgroundColor: Branding.Colors.black.black }}>
+      {!onMobile() ? (
+        <>
+          <div
+            style={{
+              position: 'fixed',
+              top: '0px !important',
+              zIndex: 1,
+            }}
+          >
+            <LandingPageHeader forLandingPage={true}/>
+          </div>
+          <div style={{ 
+            width: '100vW',
+            height: '100vH',
+            // marginTop: -80,
+            background: `url('https://qcloud-staging.s3.me-south-1.amazonaws.com/web/hollyoud.jpg')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+          }}/>
+          <div style={{ 
+            width: '100vW',
+            height: '100vH',
+            backgroundColor: Branding.Colors.black.black,
+            opacity: 0.9,
+            marginTop: '-100vH'
+          }}>
+            {/* // TODO: Add content here */}
+          </div>
+        </>
+      ) : <LandingPageHeader />}
+      
       {Toast}
-      <div className={styles.container}>{search}</div>
+      <div className={styles.container} style={{ backgroundColor: Branding.Colors.black.black }}>{search}</div>
       {children}
       {!onMobile() ? (
         <div style={{ width: '100%' }}>

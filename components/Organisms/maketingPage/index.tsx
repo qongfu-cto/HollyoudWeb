@@ -28,7 +28,7 @@ function MarketingPage() {
               whiteSpace: 'break-spaces',
               textAlign: 'center'
             }}
-            labelColor={Branding.Colors.primary.normal}
+            labelColor={Branding.Colors.white}
           />
         </div>
       </div>
@@ -36,7 +36,7 @@ function MarketingPage() {
   }
   return (
     <div>
-      <MarketingSlogan />
+      {/* <MarketingSlogan /> */}
       {/* <MarketingJoinQloudCity />
       <MarketingAboutUS /> */}
     </div>

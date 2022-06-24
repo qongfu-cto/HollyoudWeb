@@ -13,7 +13,7 @@ import {
 } from 'redux/Action/app/appActions';
 import { useSearch } from 'container/search';
 import { GetSort } from 'utilities/hook/useGetSort';
-import Profile from 'pages/myqloud/profile';
+// import Profile from 'pages/myqloud/profile';
 import ShopCardLayout from '../qloudShopCard';
 import { isNull, isUndefined } from 'lodash';
 
@@ -279,7 +279,7 @@ const SecondaryNavigation = ({
                 labelColor={Branding.Colors.primary.dark}
               />
             ) : component === 'profile' ? (
-              <Profile />
+              <></>// <Profile />
             ) : (
               <ShopCardLayout />
             )}

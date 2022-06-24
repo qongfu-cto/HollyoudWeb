@@ -51,32 +51,12 @@ const QLandingPageExplorer = ({ categories }: QExplorerProps) => {
   // >(textButtonArray?.[0]?.id);
 
   return (
-    <div className={stylings.QOrganism}>
+    <div className={stylings.QOrganism} style={{ marginTop: '-90vH' }}>
       <div className={stylings.logoStyles}>
-        <QLandingPageLogo />
+        {/* <QLandingPageLogo /> */}
         {/* <h1 className={stylings.headerText}>Seamless Connection</h1> */}
 
-        <div className={stylings.searchBarStyles}>
-          <QMainSearch
-            landingPage
-            categories={categories}
-            width={500}
-            searchPlaceHolder="Search Keywords (i.e. restaurant, gym, etc.)"
-            searchBarWidth={500}
-          />
-        </div>
-      </div>
-
-      {/* {textButtonArray?.length && (
-        <div className={stylings.propertyButtonsStyles}>
-          <QSearchSpecifiers
-            items={textButtonArray}
-            selected={selectedSearchType as QTextButtonTypes}
-          />
-        </div>
-      )} */}
-
-      <LandingPageCategories
+        <LandingPageCategories
         categoryClicked={categoryClicked}
         categories={categories}
       />
@@ -95,6 +75,27 @@ const QLandingPageExplorer = ({ categories }: QExplorerProps) => {
             />
           );
         })}
+
+        <div className={stylings.searchBarStyles}>
+          {/* <QMainSearch
+            landingPage
+            categories={categories}
+            width={500}
+            searchPlaceHolder="Search Keywords (i.e. restaurant, gym, etc.)"
+            searchBarWidth={500}
+          /> */}
+        </div>
+      </div>
+
+      {/* {textButtonArray?.length && (
+        <div className={stylings.propertyButtonsStyles}>
+          <QSearchSpecifiers
+            items={textButtonArray}
+            selected={selectedSearchType as QTextButtonTypes}
+          />
+        </div>
+      )} */}
+      
       {
         //TODO map button
         // <Button title="QloudCity Map" icon={World} border={24} width={204} />

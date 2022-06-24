@@ -28,7 +28,7 @@ function PageChangeLoader() {
   }, []);
 
   return (
-    <div style={{ position: 'absolute' }}>
+    <div style={{ position: 'absolute', backgroundColor: "black" }}>
       {loading ? (
         currentDevice === 'mobile' ? (
           <MobileCityLoader openModal={loading} message="" />

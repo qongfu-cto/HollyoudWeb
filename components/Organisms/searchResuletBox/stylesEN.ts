@@ -11,7 +11,8 @@ export const useSearchResultBoxStyles = makeStyles({
 
     //  width:"80%",
     //  maxWidth:1024,
-    height: '80vh'
+    height: '80vh',
+    background: Branding.Colors.black[100],
   },
   header: {
     display: 'flex',
@@ -24,7 +25,8 @@ export const useSearchResultBoxStyles = makeStyles({
     display: 'flex',
     alignItems: 'flex-end',
     flex: 1,
-    columnGap: 14
+    columnGap: 14,
+    color: Branding.Colors.white
   },
   sorting: {
     display: 'flex',
@@ -143,15 +145,18 @@ export const useMobileSearchResultBoxStyles = makeStyles({
     gap: '1rem',
     //alignItems: "center",
     justifyContent: 'flex-start',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    color: Branding.Colors.white + ' !important'
   },
   title: {
-    padding: '20px 20px 0px'
+    padding: '20px 20px 0px',
+    color: Branding.Colors.white + ' !important'
   },
   sorting: {
     display: 'flex',
     alignItems: 'center',
-    columnGap: 8
+    columnGap: 8,
+    color: Branding.Colors.white + ' !important'
   },
   results: {
     display: 'grid',
@@ -166,7 +171,8 @@ export const useMobileSearchResultBoxStyles = makeStyles({
     },
     [mediaQueries.small]: {
       rowGap: 20
-    }
+    },
+    color: Branding.Colors.white + ' !important'
   },
   sortButton: {
     '&.MuiButton-root': {

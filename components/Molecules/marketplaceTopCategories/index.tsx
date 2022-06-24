@@ -61,7 +61,7 @@ function MarketPlaceTopCategories({
       <QText
         label={label}
         labelStyle={{ fontSize: 12, marginTop: 10, whiteSpace: 'nowrap' }}
-        labelColor={Branding.Colors.black[100]}
+        labelColor={Branding.Colors.white}
       />
     </div>
   );

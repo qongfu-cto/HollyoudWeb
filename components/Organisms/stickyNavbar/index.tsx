@@ -44,7 +44,7 @@ const StickyNavbar: FC<StickyNavbarProps> = ({
         </Link>
       )}
       <div className={styles.dynamicContent}>{children}</div>
-      <SignupLoginButton />
+      {/* <SignupLoginButton /> */}
     </div>
   );
 };

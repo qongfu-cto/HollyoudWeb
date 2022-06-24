@@ -44,7 +44,7 @@ function Profile() {
         width: '100%'
       }}
     >
-      <ProfileCardLayout userProfile={profile} />
+      { profile && <ProfileCardLayout userProfile={profile} />}
     </div>
   );
 }

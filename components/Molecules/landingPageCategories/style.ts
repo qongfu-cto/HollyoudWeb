@@ -10,6 +10,7 @@ export const useLandingPageCategoriesStyle = makeStyles({
         minWidth: 600,
         display: "flex",
         justifyContent: "center",
+        color: 'white !important',
 
         columnGap: 42,
         rowGap: 30,

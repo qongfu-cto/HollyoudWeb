@@ -14,15 +14,14 @@ export const useMarketPlaceTopCategoriesStylesEN = makeStyles({
         [mediaQueries.small]: {
             width: "auto",
             minWidth: 90
-        }
+        },
 
     },
     iconContainer: {
         width: 64,
         height: 64,
-        backgroundColor: Branding.Colors.white,
+        // backgroundColor: Branding.Colors.black[100] + ' !important',
         boxShadow: ` 0px 1px 2.5px  gray`,
-
-
+        border: '1px solid rgb(255,255,255)',
     }
 });

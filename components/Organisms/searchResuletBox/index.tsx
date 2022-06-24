@@ -277,7 +277,7 @@ const SearchResultsBox: FC<SearchResultsBoxProps> = ({
           {!load ? (
             <Typography
               variant="h5"
-              color={Branding.Colors.black[86]}
+              color={Branding.Colors.white}
               fontSize={18}
               fontWeight={500}
               lineHeight="20px"
@@ -318,7 +318,7 @@ const SearchResultsBox: FC<SearchResultsBoxProps> = ({
           <div className={styles.sortTitle}>
             <Typography
               variant="caption"
-              color={Branding.Colors.black[86]}
+              color={Branding.Colors.white}
               fontWeight="medium"
               fontSize={16}
               fontFamily="Outfit"

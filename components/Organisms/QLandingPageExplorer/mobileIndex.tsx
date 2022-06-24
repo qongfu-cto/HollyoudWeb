@@ -86,7 +86,7 @@ const QMobileLandingPageExplorer = ({ categories }: QExplorerProps) => {
         </div>
         {/* <h1 className={styles.headerText}>Seamless Connection</h1> */}
         <div className={styles.searchBarStyles}>
-          <QMobileSearchBar
+          {/* <QMobileSearchBar
             handleSwitchMenuHandler={() => {}}
             handleEnterClicked={() => {}}
             setShowBar={() => {}}
@@ -99,7 +99,7 @@ const QMobileLandingPageExplorer = ({ categories }: QExplorerProps) => {
             }}
             placeHolderText="Use Keywords (i.e. restaurant, gym, etc.)
             "
-          />
+          /> */}
         </div>
       </>
     );

@@ -110,16 +110,17 @@ export const branding = (mode: PaletteMode) => ({
         primary: {
             ...(mode === "light"
                 ? {
-                    dark: "#1E5065",
-                    main: "#3190AF",
-                    light: "#C2E5F7",
-                }
-                : {
                     //dummy for dark mode
                     dark: "#DD9900",
                     main: "#E2BC65",
                     light: "#FAEFD6",
-                }),
+                }
+                : {
+                    dark: "#1E5065",
+                    main: "#3190AF",
+                    light: "#C2E5F7",
+                }
+                ),
             white: "#FFFFFF",
             offWhite: "#F8FCFF",
             black: {

@@ -23,6 +23,7 @@ export const Branding = {
       variant_10: '#0092DD'
     },
     black: {
+      black: '#000000',
       100: '#333333',
       86: '#4F4F4F',
       60: '#858585',
