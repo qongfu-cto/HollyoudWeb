@@ -34,7 +34,7 @@ const LandingPageHeader = ( forLandingPage: LandingPageHeaderProps) => {
       <div className={styles.container}>
         <div className={styles.flagWrapper}>
           {/* <QIcons iconStyle={styles.flagStyle} source={BahrainFlag} /> */}
-          <QText
+          {/* <QText
             label={'HOLLYOUD'}
             labelStyle={{
               fontFamily: 'Outfit',
@@ -44,7 +44,7 @@ const LandingPageHeader = ( forLandingPage: LandingPageHeaderProps) => {
               padding: '12px 16px'
             }}
             labelColor={Branding.Colors.white}
-          />
+          /> */}
         </div>
         {/* <SignupLoginButton /> */}
       </div>

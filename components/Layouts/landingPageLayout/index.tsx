@@ -34,7 +34,7 @@ const LandingPageLayout = ({ children, search }: LandingPageLayoutProps) => {
               zIndex: 1,
             }}
           >
-            <LandingPageHeader forLandingPage={true}/>
+            {/* <LandingPageHeader forLandingPage={true}/> */}
           </div>
           <div style={{ 
             width: '100vW',
