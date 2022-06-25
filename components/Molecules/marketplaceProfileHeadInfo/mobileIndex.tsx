@@ -57,7 +57,8 @@ const MobileMarketplaceProfileHeadInfo: FC<CommonStartProps> = ({
         className={styles.profileDescription}
         style={{
           rowGap: show ? convertPixelsToRems(10) : convertPixelsToRems(5),
-          position: 'relative'
+          position: 'relative',
+          color: 'white'
         }}
       >
         <div
@@ -78,7 +79,8 @@ const MobileMarketplaceProfileHeadInfo: FC<CommonStartProps> = ({
           variant="h4"
           classes={{ root: styles.title }}
           style={{
-            fontSize: show ? convertPixelsToRems(18) : convertPixelsToRems(24)
+            fontSize: show ? convertPixelsToRems(18) : convertPixelsToRems(24),
+            color: 'white !important'
           }}
         >
           {title}
@@ -87,10 +89,10 @@ const MobileMarketplaceProfileHeadInfo: FC<CommonStartProps> = ({
           <QText
             label={category}
             iconLeft={placesIcon}
-            labelColor={Branding.Colors.black[86]}
+            labelColor={Branding.Colors.white}
             labelStyle={{
               fontSize: 16,
-              fontWeight: '400'
+              fontWeight: '400',
             }}
             iconLeftStyle={{
               width: 20,
@@ -111,7 +113,7 @@ const MobileMarketplaceProfileHeadInfo: FC<CommonStartProps> = ({
             <QText
               label={placeTimeStatus}
               labelColor={
-                placeTimeStatus === 'Closed'
+                placeTimeStatus === 'Available'
                   ? Branding.Colors.danger.normal
                   : Branding.Colors.success.normal
               }
@@ -120,7 +122,7 @@ const MobileMarketplaceProfileHeadInfo: FC<CommonStartProps> = ({
                 marginLeft: -4,
                 marginTop: -2
               }}
-              iconLeft={placeTimeStatus === 'Closed' ? closedIcon : openIcon}
+              iconLeft={placeTimeStatus === 'Busy' ? closedIcon : openIcon}
               iconLeftStyle={{
                 marginLeft: 2
               }}
@@ -129,7 +131,7 @@ const MobileMarketplaceProfileHeadInfo: FC<CommonStartProps> = ({
             />
             <QText
               label={
-                placeTimeStatus === 'Closed'
+                placeTimeStatus === 'Busy'
                   ? ''
                   : workingTime?.start === '0'
                   ? '24 Hours'
@@ -140,7 +142,7 @@ const MobileMarketplaceProfileHeadInfo: FC<CommonStartProps> = ({
                 marginLeft: 10,
                 marginTop: -2
               }}
-              labelColor={Branding.Colors.black[86]}
+              labelColor={Branding.Colors.white}
             />
           </div>
         ) : (
@@ -165,7 +167,7 @@ const MobileMarketplaceProfileHeadInfo: FC<CommonStartProps> = ({
             backgroundColor: 'transparent',
             width: width ?? '100%'
           }}
-          labelColor={Branding.Colors.primary.normal}
+          labelColor={Branding.Colors.white}
           iconLeft={locationIcon}
           iconLeftStyle={{
             marginLeft: 2,

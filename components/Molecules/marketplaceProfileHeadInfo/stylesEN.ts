@@ -47,7 +47,7 @@ export const useMobileMarketplaceProfileHeadInfoStyles = makeStyles({
     },
     title: {
         "&.MuiTypography-root": {
-            color: Branding.Colors.primary.dark,
+            color: Branding.Colors.white,
             fontWeight: 500,
 
             letterSpacing: 0,
