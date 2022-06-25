@@ -12,7 +12,7 @@ export const useProfileCardLayoutStylesEN = makeStyles({
     alignItems: 'center',
     margin: '20px auto ',
     borderRadius: 32,
-    backgroundColor: Branding.Colors.white,
+    // backgroundColor: Branding.Colors.white,
     paddingBottom: 20
   },
   topContainer: {
@@ -29,7 +29,7 @@ export const useProfileCardLayoutStylesEN = makeStyles({
     flexDirection: 'row',
     borderRadius: 8,
     border: '1px solid ' + Branding.Colors.blue.variant_4,
-    backgroundColor: Branding.Colors.white,
+    // backgroundColor: Branding.Colors.white,
     paddingLeft: 8,
     paddingTop: 12
   },
@@ -68,8 +68,8 @@ export const useProfileCardLayoutStylesEN = makeStyles({
     display: 'flex',
     flexDirection: 'column',
     borderRadius: 16,
-    boxShadow: '0px 1px 2px #00000029',
-    backgroundColor: Branding.Colors.white,
+    // boxShadow: '0px 1px 2px #00000029',
+    // backgroundColor: Branding.Colors.white,
     padding: 24
   },
   shopImage: {

@@ -61,7 +61,7 @@ const QloudShopLayout = () => {
         <SecondaryNavigation
           component={'qloudShop'}
           width={width}
-          withShadow
+          // withShadow
           averageNavItemWidth={245}
           subClicked={() => {}}
           subDeleted={() => {}}

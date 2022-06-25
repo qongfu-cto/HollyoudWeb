@@ -23,14 +23,14 @@ function SearchLayoutHeader({
   }));
 
   return (
-    <div style={{ position: 'fixed', zIndex: 9 }}>
+    <div style={{ position: 'fixed', zIndex: 9, backgroundColor: 'red !important' }}>
       <StickyNavbar hasLogo>
         <div style={{ position: 'relative' }}>
-          <QMainSearch
+          {/* <QMainSearch
             searchPlaceHolder={`Search ${searchPlaceHolder} in ${country} ( Keywords)`}
             hasOptions
             categories={categories}
-          />
+          /> */}
         </div>
       </StickyNavbar>
       <div
@@ -38,7 +38,7 @@ function SearchLayoutHeader({
           width: '100vw',
           // position: 'fixed',
           zIndex: 2,
-          backgroundColor: '#FFFFFF',
+          // backgroundColor: '#FFFFFF',
           // borderTop: '1px solid rgba(0,0,0,0.16)',
           borderBottom: '1px solid rgba(0,0,0,0.16)'
         }}

@@ -18,7 +18,7 @@ export const useNavigationBarStyles = makeStyles({
         height: 80,
         top: 0,
         zIndex: 2,
-        background: "#FFFFFF 0% 0% no-repeat padding-box",
+        // background: "#FFFFFF 0% 0% no-repeat padding-box",
 
         // boxShadow:` 0px 2px 4px  gray`
     },

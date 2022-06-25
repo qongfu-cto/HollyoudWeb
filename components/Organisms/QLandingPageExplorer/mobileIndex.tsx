@@ -80,7 +80,7 @@ const QMobileLandingPageExplorer = ({ categories }: QExplorerProps) => {
         </div>
       </>
     ) : (
-      <>
+      <div style={{ height: '100vH', marginTop: '-50vH' }}>
         <div className={styles.logoStyles}>
           <Img source={fullLogo} alt="logo" style={styles.img} />
         </div>
@@ -101,14 +101,14 @@ const QMobileLandingPageExplorer = ({ categories }: QExplorerProps) => {
             "
           /> */}
         </div>
-      </>
+      </div>
     );
   };
 
   return (
-    <div className={styles.QOrganism}>
+    <div className={styles.QOrganism} style={{ height: '100vH', }}>
       {renderLandingContent()}
-      <div className={styles.propertyButtonsStyles}>
+      <div className={styles.propertyButtonsStyles} style={{ marginTop: '-70vH', }}>
         {categories
           .filter(category => category.types[0] === 'places')
           .map(category => (
