@@ -74,7 +74,7 @@ const LandingPageFooterExpended = () => {
       )}
       <Grid container className={styles.container}>
         <Grid item xs={7}>
-          <GridHeader label="Navigate Hollyoud" col={12} />
+          <GridHeader label="Navigate Hollyoud" col={12} color={Branding.Colors.white}/>
           <Grid container>
             {/* <Grid item xs={4}>
               <TextButton
@@ -98,12 +98,12 @@ const LandingPageFooterExpended = () => {
               <TextButton
                 hrefLink="./terms-and-conditions"
                 label="Terms and Conditions  "
-                labelColor={Branding.Colors.black[48]}
+                labelColor={Branding.Colors.white}
               />
               <TextButton
                 hrefLink="./privacy-policy"
                 label="Privacy Statement "
-                labelColor={Branding.Colors.black[48]}
+                labelColor={Branding.Colors.white}
               />
               {/* <TextButton
                 label="Sitemap  "
@@ -113,7 +113,7 @@ const LandingPageFooterExpended = () => {
           </Grid>
         </Grid>
         <Grid container xs={5}>
-          <GridHeader label="Share your feedback " col={12} />
+          <GridHeader label="Share your feedback " col={12} color={Branding.Colors.white}/>
 
           <Grid container spacing={2}>
             <Grid item xs={12}>
@@ -144,6 +144,7 @@ const LandingPageFooterExpended = () => {
                     },
                     multiline: false
                   }}
+                  
                 />
               </FormWrapper>
             </Grid>

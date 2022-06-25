@@ -22,7 +22,7 @@ export const useInputFieldStylesEN = makeStyles<
       overflow: 'hidden',
       margin: ({ margin }) => margin ?? 0,
       borderRadius: ({ border }) => border ?? 4,
-      backgroundColor: Branding.Colors.white,
+      backgroundColor: Branding.Colors.white + ' !important',
       transition: theme?.transitions?.create([
         'border-color',
         'background-color',
@@ -33,7 +33,7 @@ export const useInputFieldStylesEN = makeStyles<
         boxShadow: `${Branding.Colors.black[60]} 0 2px 2px 0`,
         borderColor: Branding.Colors.primary.light
       }
-    }
+    },
   },
 
   containerOutlined: {

@@ -3,7 +3,7 @@ export const svgColorHandler = (icon: any): string | undefined => {
 
     if (icon) {
         return `data:image/svg+xml;utf8,${encodeURIComponent(
-            icon?.replace("<svg", `<svg fill=\"#3190AF\"`)
+            icon?.replace("<svg", `<svg fill=\"#FFFFFF\"`)
         )}`;
     }
 

@@ -6,9 +6,10 @@ import Text from "../../Atoms/text";
 interface gridHeaderProps {
     label: string;
     col: GridSize;
+    color?: any;
 }
 
-const GridHeader = ({label, col}: gridHeaderProps) => {
+const GridHeader = ({label, col, color}: gridHeaderProps) => {
     return (
         <Grid item xs={col}>
             <Text
@@ -18,7 +19,7 @@ const GridHeader = ({label, col}: gridHeaderProps) => {
                     fontWeight: "bold",
                     marginBottom: 10,
                 }}
-                labelColor={Branding.Colors.black[86]}
+                labelColor={color ?? Branding.Colors.black[86]}
             />
         </Grid>
     );

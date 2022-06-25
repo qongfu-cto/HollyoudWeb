@@ -72,6 +72,7 @@ const QLandingPageExplorer = ({ categories }: QExplorerProps) => {
               border={12}
               width={300}
               onClick={() => categoryClicked(category._id)}
+              labelColor={'#fff'}
             />
           );
         })}

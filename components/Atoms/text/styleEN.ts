@@ -5,7 +5,7 @@ import {Branding} from '../../../utilities/branding';
 
 export const useQTextStylesEN = makeStyles<Theme, { color: string | undefined }>((theme: ThemeOptions) => ({
     label: {
-        color: ({color}) => color ?? Branding.Colors.primary.normal,
+        color: '#FFFFFF', //({color}) => color ?? Branding.Colors.primary.normal,
 
         //fontWeight:"bold",
         fontSize: 16

@@ -3,7 +3,7 @@ import {Branding} from "../../../utilities/branding";
 
 export const useLandingPageFooterExpendedStylesEN = makeStyles({
     container: {
-        backgroundColor: Branding.Colors.offWhite,
+        backgroundColor: Branding.Colors.black[100],
         height: 352,
         bottom: 0,
         paddingRight: 64,
@@ -14,9 +14,11 @@ export const useLandingPageFooterExpendedStylesEN = makeStyles({
     label: {
         fontFamily: 'Outfit',
         fontSize: 12,
-        color: Branding.Colors.primary.normal,
+        color: Branding.Colors.white + ' !important',
+        opacity: 0.5
     },
     form:{
-        width:"100%"
+        width:"100%",
+        color: Branding.Colors.white + ' !important',
     }
 });

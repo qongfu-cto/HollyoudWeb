@@ -8,13 +8,15 @@ const Button = ({
   icon,
   border,
   width,
-  onClick
+  onClick,
+  labelColor
 }: {
   title: string;
   icon: string;
   border: number;
   width: number;
   onClick: VoidFunction;
+  labelColor?: any;
 }) => {
   return (
     <QButton
@@ -30,7 +32,7 @@ const Button = ({
         marginTop: 50
       }}
       labelStyles={{
-        color: Branding.Colors.primary.normal,
+        color: labelColor ?? Branding.Colors.primary.normal,
         fontSize: 17,
         textTransform: 'none'
       }}

@@ -15,7 +15,7 @@ const LandingPageFooter = ({showFooter, label}: LandingPageProps) => {
     return (
         <footer className={styles.container}>
             <Text
-                labelColor={Branding.Colors.black[86]}
+                labelColor={Branding.Colors.white}
                 label={`Copyright © ${year} by Qloudcity Technologies W.L.L. All Rights Reserved.`}
                 labelStyle={{fontSize: 12}}
             />
