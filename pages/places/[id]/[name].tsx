@@ -255,7 +255,7 @@ function ProfilePage({ pathExist, place, myPlace, reviews }: Props) {
           reviews={reviews.params.totalRecords}
         />
 
-        <RatingManagement
+        {/* <RatingManagement
           toggleModal={toggleModal}
           place={place}
           setShowModal={setShowModal}
@@ -269,7 +269,7 @@ function ProfilePage({ pathExist, place, myPlace, reviews }: Props) {
           showNotLogged={showNotLogged}
           unverifiedUser={unverifiedUser}
           setUnVerifiedUser={setUnVerifiedUser}
-        />
+        /> */}
       </>
     );
   };

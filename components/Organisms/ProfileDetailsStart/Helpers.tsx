@@ -81,7 +81,7 @@ export const FixedContent = ({
             fontSize: convertPixelsToRems(16),
             fontWeight: 500,
             font: 'normal normal medium 8px/14px Outfit',
-            color: Branding.Colors.primary.normal,
+            color: Branding.Colors.white,
             letterSpacing: 0,
             paddingLeft: 5
           }}
@@ -97,7 +97,7 @@ export const FixedContent = ({
             size={'medium'}
           />
           <QText
-            label={rating.toFixed(1) ?? '0.0'}
+            label={rating?.toFixed(1) ?? '0.0'}
             labelStyle={{
               font: 'normal normal medium 8px/14px Outfit',
               fontSize: '16px',

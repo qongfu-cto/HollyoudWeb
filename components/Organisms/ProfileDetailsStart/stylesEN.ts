@@ -88,7 +88,7 @@ export const useProfileDetailsStartStyles = makeStyles({
     smallColorBox: {
         height: 15,
         width: 15,
-        backgroundColor: "#FFD6D6",
+        // backgroundColor: "#FFD6D6",
     },
 fav:{
     border: `1px solid ${Branding.Colors.black[16]} `,
@@ -222,14 +222,14 @@ export const useMobileProfileDetailsStartStyles = makeStyles({
     smallColorBox: {
         height: 15,
         width: 15,
-        backgroundColor: "#FFD6D6",
+        // backgroundColor: "#FFD6D6",
     },
     contentFooter: {
          padding: `10px 15px`,
          position: 'fixed',
         borderBottom:`1px solid ${Branding.Colors.black[16]}`,
          top:0,
-         backgroundColor:"white",
+        //  backgroundColor:"white",
          display: 'flex',
          zIndex:2,
          flexDirection:"column",
