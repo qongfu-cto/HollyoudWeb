@@ -109,8 +109,8 @@ const App = ({token, uid, categories}: AppProps) => {
      
         <PageHeader 
 					// pageTitle="QloudCity"
-					pageUrl={'https://qloudcity.com'}
-					meta={`Explore Places to Eat, Shop & Go!`}
+					pageUrl={'https://hollyoud.com'}
+					meta={`Connect • Collaborate • Create`}
 					// pageImage={`/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpeopleincity.0c842cd7.png&w=640&q=75`}
                     pageImage={`web/qloudcity.png`}
 				/>
@@ -131,7 +131,7 @@ const App = ({token, uid, categories}: AppProps) => {
                         </SearchContainer>
                     }
                 >
-                    <MarketingPage/>
+                    {/* <MarketingPage/> */}
                 </LandingPageLayout>
             )}
         </>

@@ -130,17 +130,17 @@ const SearchResults = () => {
           {loadActive ? (
             <>
               <PageHeader
-                pageTitle="QloudCity"
-                pageUrl={`https://qloudcity.com${asPath}`}
-                description="Explore Places to Eat, Shop & Go!"
+                pageTitle="Hollyoud"
+                pageUrl={`https://hollyoud.com${asPath}`}
+                description="Connect • Collaborate • Create"
               />
             </>
           ) : (
             <>
               <PageHeader
-                pageTitle="QloudCity"
-                pageUrl={`https://qloudcity.com${asPath}`}
-                description="Explore Places to Eat, Shop & Go!"
+                pageTitle="Hollyoud"
+                pageUrl={`https://hollyoud.com${asPath}`}
+                description="Connect • Collaborate • Create"
               />
               <MobileSearchLayoutHeader
                 searchPlaceHolder={replaceWithTheCapitalLetter(
@@ -168,18 +168,18 @@ const SearchResults = () => {
         {loadActive ? (
           <>
             <PageHeader
-              pageTitle="QloudCity"
-              pageUrl={`https://qloudcity.com${asPath}`}
-              description={`Explore Places to Eat, Shop & Go!`}
+              pageTitle="Hollyoud"
+              pageUrl={`https://hollyoud.com${asPath}`}
+              description={`Connect • Collaborate • Create`}
               pageImage={`web/qloudcity.png`}
             />
           </>
         ) : (
           <>
             <PageHeader
-              pageTitle="QloudCity"
-              pageUrl={`https://qloudcity.com${asPath}`}
-              description={`Explore Places to Eat, Shop & Go!`}
+              pageTitle="Hollyoud"
+              pageUrl={`https://hollyoud.com${asPath}`}
+              description={`Connect • Collaborate • Create`}
               pageImage={`web/qloudcity.png`}
             />
             <SearchLayoutHeader

@@ -12,7 +12,7 @@ const MobilePlaceSchedule: FC<PlaceScheduleProps> = ({ schedule }) => {
   const styles = usePlaceScheduleStyles();
   const today = new Date().getDay();
   const weekDays = [
-    'Sunday',
+  'Sunday',
     'Monday',
     'Tuesday',
     'Wednesday',
@@ -23,7 +23,7 @@ const MobilePlaceSchedule: FC<PlaceScheduleProps> = ({ schedule }) => {
 
   return (
     <>
-      <BorderedBlockTitle title="Week Schedule" mobile />
+      <BorderedBlockTitle title="Availability" mobile />
       <Grid container classes={{ root: styles.placeScheduleGrid }}>
         {schedule?.map((s, i) => (
           <Grid item xs={12} sm={12} key={s.day}>

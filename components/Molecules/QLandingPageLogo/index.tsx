@@ -1,7 +1,7 @@
 import React from 'react';
 import QText from '../../Atoms/text';
 
-import QloudityFullLogo from '../../../assets/images/qloudCityNewLogo.svg';
+import logo from '../../../assets/images/hollyoud_logo_white.svg';
 import { QLandingPageLogoStyles } from './stylesEN';
 import Img from '../../Atoms/img';
 
@@ -22,7 +22,7 @@ const QLandingPageLogo = () => {
             /> */}
 
       <Img
-        source={QloudityFullLogo}
+        source={logo}
         alt="logo"
         container={{
           position: 'relative',

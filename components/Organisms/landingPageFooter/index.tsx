@@ -16,14 +16,14 @@ const LandingPageFooter = ({showFooter, label}: LandingPageProps) => {
         <footer className={styles.container}>
             <Text
                 labelColor={Branding.Colors.white}
-                label={`Copyright © ${year} by Qloudcity Technologies W.L.L. All Rights Reserved.`}
+                label={`Copyright © ${year} by Hollyoud Ventures WLL. All Rights Reserved.`}
                 labelStyle={{fontSize: 12}}
             />
             <QButton
                 onClick={showFooter}
                 label={label}
                 outline
-                labelStyles={{color: Branding.Colors.primary.normal}}
+                labelStyles={{color: Branding.Colors.white}}
             />
         </footer>
     );

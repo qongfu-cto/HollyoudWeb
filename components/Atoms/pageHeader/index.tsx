@@ -31,19 +31,19 @@ const PageHeader = ({
   return (
     <Head>
       <title>
-        {title ? title : 'QloudCity | Explore Places to Eat, Shop & Go!'}{' '}
+        {title ? title : 'Hollyoud | Connect • Collaborate • Create'}{' '}
       </title>
 
       <meta
         name="description"
         property="og:description"
         content={
-          description ? description : 'Explore Places to Eat, Shop & Go!'
+          description ? description : 'Connect • Collaborate • Create'
         }
       />
       <link rel="icon" href={`${API_URL}/favicon.ico`} />
 
-      <meta property="og:site_name" content="QloudCity" />
+      <meta property="og:site_name" content="Hollyoud" />
       {/* <meta
         property="og:title"
         content={`${pageTitle} | ${meta ??
@@ -54,7 +54,7 @@ const PageHeader = ({
         content={`${pageTitle} | ${meta ??
           'Explore Places to Eat, Shop & Go!'}`}
       /> */}
-      <meta property="og:title" content={pageTitle ? pageTitle : 'QloudCity'} />
+      <meta property="og:title" content={pageTitle ? pageTitle : 'Hollyoud'} />
 
       <meta property="og:url" content={`${pageUrl}`} />
       <meta property="og:type" content="website" />
@@ -76,7 +76,7 @@ const PageHeader = ({
       />
       <meta
         property="twitter:description"
-        content={description ?? 'Explore Places to Eat, Shop & Go!'}
+        content={description ?? 'Connect • Collaborate • Create'}
       />
       <meta
         property="twitter:image"

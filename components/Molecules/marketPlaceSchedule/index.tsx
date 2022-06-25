@@ -22,7 +22,7 @@ const PlaceSchedule: FC<PlaceScheduleProps> = ({ schedule }) => {
   ];
 
   return (
-    <BorderedBlock title="Week Schedule" mobile>
+    <BorderedBlock title="Availablity" mobile>
       <Grid container classes={{ root: styles.placeScheduleGrid }}>
         {schedule?.map((s, i) => (
           <Grid item xs={12} sm={12} key={s.day}>

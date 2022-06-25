@@ -15,7 +15,7 @@ const PlacesFilter: PlacesFilterProps = ({}) => {
             value: 'verified',
             name: 'verified'
           },
-          { label: 'Open Now', value: 'openNow', name: 'open' }
+          { label: 'Available', value: 'openNow', name: 'open' }
         ]}
       />
       <FilterSection

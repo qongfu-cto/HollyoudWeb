@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import { useDispatch } from 'react-redux';
 
-import fullLogo from 'assets/images/qloudCityNewLogo.svg';
+import fullLogo from 'assets/images/hollyoud_logo_white.svg';
 import confused from 'assets/icons/confused.svg';
 
 import { useSearch } from 'container/search';
@@ -69,7 +69,7 @@ const QMobileLandingPageExplorer = ({ categories }: QExplorerProps) => {
             labelColor={Branding.Colors.black['86']}
           />
           <QText
-            label={'Continue browsing the city'}
+            label={'Continue browsing the portal'}
             labelStyle={{
               font: 'normal normal medium 18px/22px Outfit',
               fontSize: 20,

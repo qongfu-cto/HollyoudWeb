@@ -29,7 +29,7 @@ export const useButtonStylesEN = makeStyles((theme: ThemeOptions) => ({
   },
 
   labelOutline: {
-    color: Branding.Colors.primary?.dark
+    color: Branding.Colors.white
   },
 
   disable: {

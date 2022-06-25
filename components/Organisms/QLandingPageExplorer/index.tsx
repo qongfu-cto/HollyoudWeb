@@ -53,7 +53,7 @@ const QLandingPageExplorer = ({ categories }: QExplorerProps) => {
   return (
     <div className={stylings.QOrganism} style={{ marginTop: '-90vH' }}>
       <div className={stylings.logoStyles}>
-        {/* <QLandingPageLogo /> */}
+        <QLandingPageLogo />
         {/* <h1 className={stylings.headerText}>Seamless Connection</h1> */}
 
         <LandingPageCategories

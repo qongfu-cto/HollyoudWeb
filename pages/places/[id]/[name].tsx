@@ -186,11 +186,11 @@ function ProfilePage({ pathExist, place, myPlace, reviews }: Props) {
         <>
           <PageHeader
             // pageTitle={place.name}
-            pageUrl={`https://qloudcity.com${asPath}`}
+            pageUrl={`https://hollyoud.com${asPath}`}
             description={
               place.placeData.description
                 ? place.placeData.description
-                : 'Explore Places to Eat, Shop & Go!'
+                : 'Connect • Collaborate • Create'
             }
             pageImage={`${place.placeData.cover.thumb}`}
             title={place.name}
@@ -227,11 +227,11 @@ function ProfilePage({ pathExist, place, myPlace, reviews }: Props) {
       <>
         <PageHeader
           pageTitle={place.name}
-          pageUrl={`https://qloudcity.com${asPath}`}
+          pageUrl={`https://hollyoud.com${asPath}`}
           description={
             place.placeData.description
               ? place.placeData.description
-              : 'Explore Places to Eat, Shop & Go!'
+              : 'Connect • Collaborate • Create'
           }
           pageImage={`${place.placeData.cover.thumb}`}
         />
@@ -278,11 +278,11 @@ function ProfilePage({ pathExist, place, myPlace, reviews }: Props) {
     <>
       <PageHeader
         pageTitle={place.name}
-        pageUrl={`https://qloudcity.com${asPath}`}
+        pageUrl={`https://hollyoud.com${asPath}`}
         description={
           place.placeData.description
             ? place.placeData.description
-            : 'Explore Places to Eat, Shop & Go!'
+            : 'Connect • Collaborate • Create'
         }
         pageImage={`${place.placeData.cover.thumb}`}
       />

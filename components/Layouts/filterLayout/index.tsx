@@ -118,7 +118,7 @@ const FilterLayout: FC<Props> = ({
                       name="open"
                     />
                   }
-                  label="Open Now"
+                  label="Available"
                 />
               </FormGroup>
             </Box>

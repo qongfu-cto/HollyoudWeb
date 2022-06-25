@@ -60,7 +60,7 @@ function MobileFiltering({
           labelPlacement="start"
           label={
             <QText
-              label="Open Now"
+              label="Available"
               iconLeft={OPENNOW}
               labelColor={Branding.Colors.black[60]}
               containerMargin="-15px"

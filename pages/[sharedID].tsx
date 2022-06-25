@@ -18,7 +18,7 @@ const SharedId = ({ link }: any) => {
       <PageHeader
         pageTitle={link?.title}
         pageUrl={link?.originalUrl}
-        description={`Explore Places to Eat, Shop & Go!`}
+        description={`Connect • Collaborate • Create`}
         pageImage={link?.image ? link.image : `web/qloudcity.png`}
       />
     </>

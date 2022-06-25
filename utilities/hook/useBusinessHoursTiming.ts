@@ -61,7 +61,7 @@ export const useBusinessHoursTiming = (businessHours: businessHours):[timingText
 
 //console.log( {startTime, endTime ,timeAM, currentHour  })
                     if (currentHour >= startTime && endTime >= currentHour) {
-                        setTimingText('Open Now');
+                        setTimingText('Available');
                         setTiming({
                             start: moment(time?.startTime, 'HH:mm').format('hh:mm a'),
                             end: moment(time?.endTime, 'HH:mm').format('hh:mm a')
@@ -70,7 +70,7 @@ export const useBusinessHoursTiming = (businessHours: businessHours):[timingText
                     }
                       else if (currentHour >= startTime && endTime <= timeAM) {
                        
-                        setTimingText('Open Now');
+                        setTimingText('Available');
                         setTiming({
                              start: moment(time?.startTime, 'HH:mm').format('hh:mm a'),
                             end: moment(time?.endTime, 'HH:mm').format('hh:mm a')
@@ -82,7 +82,7 @@ export const useBusinessHoursTiming = (businessHours: businessHours):[timingText
                 });
 
                 if (open24h) {
-                    setTimingText('Open Now');
+                    setTimingText('Available');
                     setTiming({
                         ...timing,
                         start: '0'

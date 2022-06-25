@@ -86,11 +86,11 @@ function ProfilePage({ pathExist, property }: Props) {
         <>
           <PageHeader
             pageTitle={property.name}
-            pageUrl={`https://qloudcity.com${asPath}`}
+            pageUrl={`https://hollyoud.com${asPath}`}
             description={
               property.propertyData.description
                 ? property.propertyData.description
-                : 'Explore Places to Eat, Shop & Go!'
+                : 'Connect • Collaborate • Create'
             }
             pageImage={`${property.propertyData.cover.thumb}`}
           />
@@ -107,11 +107,11 @@ function ProfilePage({ pathExist, property }: Props) {
       <>
         <PageHeader
           pageTitle={property.name}
-          pageUrl={`https://qloudcity.com${asPath}`}
+          pageUrl={`https://hollyoud.com${asPath}`}
           description={
             property.propertyData.description
               ? property.propertyData.description
-              : 'Explore Places to Eat, Shop & Go!'
+              : 'Connect • Collaborate • Create'
           }
           pageImage={`${property.propertyData.cover.thumb}`}
         />
@@ -140,11 +140,11 @@ function ProfilePage({ pathExist, property }: Props) {
     <>
       <PageHeader
         pageTitle={property.name}
-        pageUrl={`https://qloudcity.com${asPath}`}
+        pageUrl={`https://hollyoud.com${asPath}`}
         description={
           property.propertyData.description
             ? property.propertyData.description
-            : 'Explore Places to Eat, Shop & Go!'
+            : 'Connect • Collaborate • Create'
         }
         pageImage={`${property.propertyData.cover.thumb}`}
       />
