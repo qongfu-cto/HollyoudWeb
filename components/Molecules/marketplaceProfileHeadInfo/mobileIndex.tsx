@@ -48,7 +48,7 @@ const MobileMarketplaceProfileHeadInfo: FC<CommonStartProps> = ({
       style={{
         position: show ? 'fixed' : 'unset',
         top: 0,
-        backgroundColor: Branding.Colors.white,
+        // backgroundColor: Branding.Colors.white,
         width: width ?? '100%',
         zIndex: 100
       }}
