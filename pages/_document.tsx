@@ -7,7 +7,7 @@ import { Branding } from 'utilities/branding';
 class MyDocument extends Document {
   render() {
     return (
-      <Html style={{ backgroundColor: Branding.Colors.black.[100], overflowX: 'hidden', overflowY: 'auto' }}>
+      <Html style={{ backgroundColor: Branding.Colors.black[100], overflowX: 'hidden', overflowY: 'auto' }}>
         <Head>
           {/* <link rel="manifest" href="/manifest.json" /> */}
           <link rel="icon" type="image/x-icon" href="./favicon.ico" />
