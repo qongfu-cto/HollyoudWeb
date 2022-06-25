@@ -26,8 +26,9 @@ const useMobileNavigationBarStyles = makeStyles({
     height: 80,
     top: 0,
     zIndex: 2,
-    background: '#FFFFFF 0% 0% no-repeat padding-box',
-		boxShadow: ` 0px 1px 2px  ${Branding.Colors.black[6]}`,
+    background: 'none !important'
+    // background: 'none 0% 0% no-repeat padding-box',
+		// boxShadow: ` 0px 1px 2px  ${Branding.Colors.black[6]}`,
   },
   mobileBrandContainer: {
     height: 60,

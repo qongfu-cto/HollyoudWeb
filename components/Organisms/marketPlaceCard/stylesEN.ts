@@ -9,7 +9,7 @@ export const useMarketPlaceCardStylesEN = makeStyles({
 
         flexDirection: "column",
         borderRadius: 12,
-        backgroundColor: "white",
+        backgroundColor: Branding.Colors.black[86],
         width: "100%",
         position: "relative",
         bottom: 10,
@@ -18,7 +18,7 @@ export const useMarketPlaceCardStylesEN = makeStyles({
     title: {
         "&.MuiTypography-root": {
             fontWeight: "bold",
-            color: Branding.Colors.primary.dark,
+            color: Branding.Colors.white,
             fontSize: 18,
             overflow: "hidden",
             textOverflow: " ellipsis",
@@ -60,7 +60,7 @@ export const useMobileMarketPlaceCardStylesEN = makeStyles({
         justifyContent: "space-evenly",
         flexDirection: "column",
         borderRadius: 12,
-        backgroundColor: "white",
+        backgroundColor: Branding.Colors.black[86],
         width: "100%",
         position: "relative",
         bottom: 10,
@@ -69,7 +69,7 @@ export const useMobileMarketPlaceCardStylesEN = makeStyles({
     title: {
         "&.MuiTypography-root": {
             fontWeight: 400,
-            color: Branding.Colors.primary.dark,
+            color: Branding.Colors.white,
             fontSize: 18,
             overflow: "hidden",
             textOverflow: " ellipsis",

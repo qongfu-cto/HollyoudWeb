@@ -274,7 +274,7 @@ export const useQMobileSecondaryNavigationStyling = makeStyles((width: number) =
         flexDirection: "row",
         flexWrap: 'wrap',
         margin: 0,
-        background: '#ffffff',
+        background: Branding.Colors.black[100],
         border: '1px solid #e5e5e5',
         boxSizing: 'border-box',
         color: '#1E5065',
