@@ -45,7 +45,8 @@ function MobilePlaceDescription({ description }: { description: string }) {
               textOverflow: ' ellipsis',
               paddingLeft: 34,
               textAlign: 'justify',
-              textJustify: 'inter-word'
+              textJustify: 'inter-word',
+              color: 'white !important'
 
               //height: 100
               // whiteSpace: 'nowrap'
@@ -64,7 +65,7 @@ function MobilePlaceDescription({ description }: { description: string }) {
           />
         </section>
       ) : (
-        <section style={{ width: '100%' }}>
+        <section style={{ width: '100%', color: 'white !important' }}>
           <BorderedBlockTitle title="About Us" mobile />
           <p
             //variant="body2"
@@ -76,7 +77,9 @@ function MobilePlaceDescription({ description }: { description: string }) {
               textOverflow: ' ellipsis',
               paddingLeft: 34,
               textAlign: 'justify',
-              textJustify: 'inter-word'
+              textJustify: 'inter-word',
+              color: 'rgba(255,255,255,0.8)',
+              fontWeight: '400'
 
               //height: 100
               // whiteSpace: 'nowrap'

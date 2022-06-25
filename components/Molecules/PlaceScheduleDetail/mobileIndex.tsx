@@ -41,7 +41,7 @@ const MobilePlaceScheduleDetail: FC<{
       ) : open24Hours ? (
         <Typography
           variant="subtitle2"
-          style={{ color: isToday ? '#5fb948' : '' }}
+          style={{ color: isToday ? '#$ffffff' : '' }}
           // classes={{ root: styles.placeScheduleDetailStatus }}
           //className={isToday ? styles.placeScheduleDetailToday : ''}
         >
@@ -54,7 +54,7 @@ const MobilePlaceScheduleDetail: FC<{
               <Typography
                 key={i}
                 variant="subtitle2"
-                style={{ color: isToday ? '#5fb948' : '' }}
+                style={{ color: isToday ? '#ffffffff' : '' }}
                 // classes={{ root: styles.placeScheduleDetailStatus }}
                 //className={isToday ? styles.placeScheduleDetailToday : ''}
               >

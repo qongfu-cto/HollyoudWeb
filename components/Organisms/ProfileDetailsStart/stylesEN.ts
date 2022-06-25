@@ -24,7 +24,7 @@ export const useProfileDetailsStartStyles = makeStyles({
     },
     title: {
         "&.MuiTypography-root": {
-            color: Branding.Colors.primary.dark,
+            color: Branding.Colors.white,
             fontWeight: 500,
             fontSize: convertPixelsToRems(32),
             letterSpacing: 0,

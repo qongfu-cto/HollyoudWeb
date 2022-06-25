@@ -24,7 +24,7 @@ export const BorderedBlockTitle: FC<{ title: string; mobile?: boolean }> = ({
     <Typography
       variant="h5"
       classes={{ root: styles.borderedBlockTitle }}
-      style={{ padding: mobile ? '1.5rem 0 0 0' : 0 }}
+      style={{ padding: mobile ? '1.5rem 0 0 0' : 0, color: 'white' }}
     >
       {title}
     </Typography>
